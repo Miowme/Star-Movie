@@ -128,7 +128,7 @@ export function CollectionDetailClient({
                 className="group flex flex-col justify-between overflow-hidden rounded-xl border border-[#292E37] bg-[#1B2027] transition-colors hover:border-[#6F1BA5]"
               >
                 <Link href={`/movies/${m.id}`} className="block">
-                  <div className="relative aspect-[2/3] w-full overflow-hidden bg-[#12151B]">
+                  <div className="relative aspect-2/3 w-full overflow-hidden bg-[#12151B]">
                     {m.coverUrl ? (
                       <Image
                         src={m.coverUrl}
